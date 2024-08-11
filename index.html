@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css" />
+  <title>Portofolio hamzah</title>
+</head>
+
+<body>
+  <header class="main-header">
+    <div class="main-header__logo-container">
+      <div class="main-header__logo-img-cont">
+        <img src="assets/hamzah.JPG" alt="logo Image" class="main-header__logo-img" />
+      </div>
+      <h4 class="main-header__logo-text"> muahamad hamzah adiono
+      </h4>
+    </div>
+    <nav class="main-header__navigation">
+      <ul class="main-header__navigation-links">
+        <li class="main-header__navigation-link"><a href="./index.html"> Home </a></li>
+        <li class="main-header__navigation-link"><a href="./index.html#about"> About </a></li>
+
+        
+        <li class="main-header__navigation-link"><a href="./index.html#education" href=""> Education </a></li>
+        
+       
+
+        <li class="main-header__navigation-link"><a href="./index.html#contact" href=""> Contact </a></li>
+      </ul>
+    </nav>
+    <div class="main-header__sm-scr-nav-btn">
+      <div class="main-header__sm-scr-nav-btn-line"></div>
+      <div class="main-header__sm-scr-nav-btn-line"></div>
+    </div>
+    <div class="main-header__sm-menu">
+      <div class="main-header__sm-menu-close">
+
+      </div>
+      <ul class="main-header__sm-menu-links">
+        <li>
+          <a class="main-header__sm-menu-link main-header__sm-menu-link--1" name="home-hero">Home</a>
+        </li>
+
+        <li>
+          <a class="main-header__sm-menu-link main-header__sm-menu-link--2" name="about">About</a>
+        </li>
+
+
+        
+
+
+        
+        <li>
+          <a class="main-header__sm-menu-link main-header__sm-menu-link--4" name="education">Education</a>
+        </li>
+
+       
+        
+
+    
+        <li>
+          <a class="main-header__sm-menu-link main-header__sm-menu-link--7" name="contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+
+  <section id="home-hero" class="home-hero">
+    <div class="home-hero__content">
+      <div class="home-hero__info">
+        <h1 class="heading-primary home-hero__heading-primary">
+          <span class="heading-primary__sm"> Hello 👋</span>
+          <span class="heading-primary__main">
+           Hi saya muhamad hamzah adiono saya mahasiswa Sakarya University
+        </h1>
+        <button class="btn btn-theme home-hero__btn-theme" onclick="scrollToProjects()">Projects</button>
+        <button class="btn btn-inv home-hero__btn-theme" onclick="scrollToContact()">Contact</button>
+
+
+      </div>
+    </div>
+  </section>
+  <section id="about" class="about main-section">
+    <div class="main-container">
+      <h2 class="heading-secondary projects__heading-secondary">
+        <span class="heading-secondary__sm"> About 🦄</span>
+        <span class="heading-secondary__main">
+          Here you will find more information about me, what I do, and list of my current skills in programming
+      </h2>
+      <div class="main-section__content">
+        <div class="about__info">
+          <div class="about__main-info">
+            <h3 class="heading-quaternary about__heading-quaternary">
+              My Story
+            </h3>
+            <p class="text-primary about__text-primary">
+              <span>
+                Hi, I'm Muhammad Hamzah Adiono, now studying at Sakarya University majoring in information systems
+              </span>
+
+              <span>
+                Besides that, now I am also active in the Sakarya Indonesian Student Association, as a database member
+              </span>
+
+              
+            </p>
+            
+            
+            
+
+
+          </div>
+          <div class="about__skill-info">
+            <h3 class="heading-quaternary about__heading-quaternary">
+              My Skills
+            </h3>
+            <ul class="about__skills">
+              <li class="about__skill">Java</li>
+              <li class="about__skill">Kotlin</li>
+              <li class="about__skill">Android Development</li>
+              <li class="about__skill">XML Layout</li>
+              <li class="about__skill">Web Development</li>
+              <li class="about__skill">Firebase</li>
+              <li class="about__skill">SQL lite</li>
+              <li class="about__skill">SQL</li>
+              <li class="about__skill">Room Database</li>
+              <li class="about__skill">Retrofit</li>
+              <li class="about__skill">Object-oriented-programming (OOP)</li>
+              <li class="about__skill">MVP design pattern</li>
+              <li class="about__skill">Testing/Debugging Android</li>
+              <li class="about__skill">API</li>
+              <li class="about__skill">GIT</li>
+              <li class="about__skill">HTML</li>
+              <li class="about__skill">CSS</li>
+              <li class="about__skill">Unity</li>
+              <li class="about__skill">C#</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="education" class="education main-section">
+    <div class="main-container">
+      <h2 class="heading-secondary">
+        <span class="heading-secondary__sm"> Education 📚</span>
+        <span class="heading-secondary__main">
+          Here you can find information about my educational background.
+        </span>
+      </h2>
+      <div class="main-section__content">
+        <div class="education__info">
+          <div class="education__main-info">
+            <div class="education-cards">
+
+              <div class="education-card">
+                <img src="assets/sakarya univ.png " alt="Sekolah 2">
+                <div class="education-card__info">
+                  <h4 class="school-name">Sakarya University</h4>
+                  <p class="school-year">Manajemen system information | 2022 - 2026</p>
+                  
+                </div>
+              </div>
+
+  </section>
+
+
+
+        <section id="contact" class="contact main-section">
+          <div class="container" data-aos="fade-up">
+    
+            <div class="section-title">
+              <h2>Contact</h2>
+            </div>
+    
+            <div class="row mt-1">
+    
+              <div class="col-lg-4">
+                <div class="info">
+                  <div class="address">
+                    <i class="bi bi-geo-alt">
+                      <img src="assets/location.png" alt="">
+                    </i>
+                    <h4>Location : </h4>
+                    <p>Jakarta, Indonesia</p>
+                  </div>
+    
+                  <div class="address">
+                    <i class="bi bi-geo-alt">
+                      <img src="assets/mail.png" alt="">
+                    </i>
+                    <h4>Email : </h4>
+                    <p>m.hamzahadiono@gmail.com |</p>
+                   
+                  </div>
+
+                  <div class="address">
+                    <i class="bi bi-geo-alt">
+                      <img src="assets/phone-call.png" alt="">
+                    </i>
+                    <h4>Call : </h4>
+                    <p>0895358522968</p>
+                  </div>
+
+                  
+              
+    
+    
+                </div>
+    
+              </div>
+    
+              
+    
+            </div>
+    
+          </div>
+        </section>
+        
+
+     
+  
+  <script src="./script.js"></script>
+</body>
+
+
+</html>
